@@ -3,10 +3,8 @@ import mongoose from 'mongoose';
 const {Schema} = mongoose;
 
 const User = new Schema({
-    username: {
+    name: {
         type: String,
-        required: true,
-        unique: true
     },
     email: {
         type: String,
