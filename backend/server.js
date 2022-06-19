@@ -4,7 +4,8 @@ import connectDB from "./db/db.js";
 import {errorHandler} from "./middlewares/errorMiddleware.js";
 
 /** import all routes */
-import authRoutes from "../backend/routes/authRoutes.js";
+import authRoutes from "./routes/authRoutes.js";
+import userRoutes from "./routes/userRoutes.js";
 
 
 dotenv.config();
@@ -16,7 +17,7 @@ const app = express();
 app.use(express.json());
 
 app.use("/api/auth", authRoutes);
-
+app.use("/api/users", userRoutes);
 
 
 app.use(errorHandler);
