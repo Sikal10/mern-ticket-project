@@ -1,10 +1,12 @@
 import {Navigate, Outlet} from "react-router-dom";
-import {useSelector} from "react-redux";
-import {selectAuthUser} from "../redux/slices/authSlice/authSlice";
+import {useAuthStatus} from "../hooks/useAuthStatus";
 
 const ProtectedRoute = () => {
+    const {checkingStatus, isAuthenticated} = useAuthStatus();
 
-    const {isAuthenticated} = useSelector(selectAuthUser);
+    if (checkingStatus) {
+        return <h2>Loading...</h2>
+    }
 
     return isAuthenticated ? <Outlet /> : <Navigate to={"/login"} />
 

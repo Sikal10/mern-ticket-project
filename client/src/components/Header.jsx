@@ -18,11 +18,11 @@ const Header = () => {
     }
 
     return (
-        <header className={"py-4 pt-10 flex items-center justify-between"}>
+        <header className={"py-4 pt-10 flex items-center justify-between px-[30px]"}>
             <Link to={"/"}><p className={"font-semibold text-gray-500"}>Support Desk</p></Link>
 
             {user ?
-                <div className={"flex items-center px-3 py-1 rounded-md bg-black text-gray-400 gap-2"} onClick={handleLogout}>
+                <div className={"flex cursor-pointer items-center px-3 py-1 rounded-md bg-black text-gray-400 gap-2"} onClick={handleLogout}>
                     <FaSignOutAlt/>
                     <p>Logout</p>
                 </div> :

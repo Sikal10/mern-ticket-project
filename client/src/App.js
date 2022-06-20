@@ -8,6 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import {ToastContainer} from "react-toastify";
 import UserProfile from "./pages/UserProfile";
 import ProtectedRoute from "./components/ProtectedRoute";
+import NewTicket from "./pages/NewTicket";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
                 <Header />
             </div>
 
-            <div className={"mt-[30px] max-w-7xl mx-auto"}>
+            <div className={"mt-[30px] max-w-6xl mx-auto px-[30px]"}>
                 <ToastContainer />
                 <Routes>
                     <Route path={"/"} element={<Home />} />
@@ -25,6 +26,9 @@ function App() {
                     <Route path={"/register"} element={<Register />} />
                     <Route path={"/profile"} element={<ProtectedRoute />}>
                         <Route path={"/profile"} element={<UserProfile />} />
+                    </Route>
+                    <Route path={"/new-ticket"} element={<ProtectedRoute />}>
+                        <Route path={"/new-ticket"} element={<NewTicket />} />
                     </Route>
                 </Routes>
             </div>

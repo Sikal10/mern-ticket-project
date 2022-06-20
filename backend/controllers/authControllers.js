@@ -42,7 +42,12 @@ export const loginUser = asyncHandler(async (req, res, next) => {
 
     const token = await generateAccessToken(existingUser._id);
 
-    const user = {email, token}
+    const user = {
+        name: existingUser.name,
+        email,
+        token,
+        id: existingUser._id
+    }
 
     res.status(200).json({success: true, user});
 });

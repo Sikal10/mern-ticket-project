@@ -6,7 +6,6 @@ const initialState = {
     user: JSON.parse(localStorage.getItem("user")) || null,
     errorMsg: "",
     success: false,
-    isAuthenticated: false
 };
 
 export const authSlice = createSlice({
