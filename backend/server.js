@@ -6,7 +6,7 @@ import {errorHandler} from "./middlewares/errorMiddleware.js";
 /** import all routes */
 import authRoutes from "./routes/authRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
-
+import ticketRoutes from "./routes/ticketRoutes.js";
 
 dotenv.config();
 connectDB();
@@ -18,6 +18,7 @@ app.use(express.json());
 
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
+app.use("/api/tickets", ticketRoutes);
 
 
 app.use(errorHandler);
