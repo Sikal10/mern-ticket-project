@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .error-message {
+        @apply px-5 text-red-700
+    }
+
+    .signup__input-container {
+        @apply rounded-[10px] space-y-2
+    }
+
+    .signup-input {
+        @apply w-full rounded-[12px] py-4 px-7 border-none outline-0
+    }
+}
