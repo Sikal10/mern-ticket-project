@@ -33,14 +33,16 @@ export const loginUser = asyncHandler(async (req, res, next) => {
     const {email, password} = req.body;
 
     /**check if user already exists*/
-    const user = await User.findOne({email});
-    if (!user) return next(errorResponse(404, "user not found"));
+    const existingUser = await User.findOne({email});
+    if (!existingUser) return next(errorResponse(404, "user not found"));
 
     /**check if the password is correct*/
-    const isPasswordCorrect = await comparePassword(password, user);
+    const isPasswordCorrect = await comparePassword(password, existingUser);
     if (!isPasswordCorrect) return next(errorResponse(400, "Invalid credentials"));
 
-    const token = await generateAccessToken(user._id);
+    const token = await generateAccessToken(existingUser._id);
 
-    res.status(200).json({success: true, token});
+    const user = {email, token}
+
+    res.status(200).json({success: true, user});
 });

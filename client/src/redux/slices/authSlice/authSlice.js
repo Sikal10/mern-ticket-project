@@ -3,10 +3,10 @@ import {registerUser, logoutUser,  loginUser} from "./authAPI";
 
 const initialState = {
     loading: "idle",
-    user: null,
+    user: JSON.parse(localStorage.getItem("user")) || null,
     errorMsg: "",
     success: false,
-    accessToken: null
+    isAuthenticated: false
 };
 
 export const authSlice = createSlice({
@@ -26,7 +26,6 @@ export const authSlice = createSlice({
         [registerUser.fulfilled]: (state, action) => {
             state.loading = "loaded"
             state.success = action.payload.success
-            state.user = action.payload.user
         },
         [registerUser.rejected]: (state, action) => {
             state.loading = "error"
@@ -39,14 +38,17 @@ export const authSlice = createSlice({
             state.loading = "loaded"
             state.success = action.payload.success
             state.user = action.payload
-            state.accessToken = action.payload.token
+            state.isAuthenticated = true
         },
         [loginUser.rejected]: (state, action) => {
+            state.user = null
             state.loading = "error"
             state.errorMsg = action.payload.error.message
+            state.isAuthenticated = false
         },
         [logoutUser.fulfilled]: (state) => {
             state.user = null
+            state.isAuthenticated = false
         }
     }
 });

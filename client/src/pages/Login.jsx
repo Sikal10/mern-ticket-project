@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {FaUser} from "react-icons/fa";
 import {loginUser} from "../redux/slices/authSlice/authAPI";
 import {useForm} from "react-hook-form";
 import {yupResolver} from "@hookform/resolvers/yup";
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import * as yup from "yup";
+import {resetUser, selectAuthUser} from "../redux/slices/authSlice/authSlice";
+import {useNavigate} from "react-router-dom";
+import {toast} from "react-toastify";
 
 /** yup schema for validation-- */
 const schema = yup.object().shape({
@@ -14,11 +17,25 @@ const schema = yup.object().shape({
 
 const Login = () => {
     const {register, handleSubmit, reset, formState: {errors}} = useForm({resolver: yupResolver(schema)});
+    const {loading, user, errorMsg} = useSelector(selectAuthUser);
 
     const dispatch = useDispatch();
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        if (errorMsg) {
+            toast.error(errorMsg);
+        }
+
+        if (user) {
+            navigate("/");
+        }
+
+        dispatch(resetUser());
+
+    }, [errorMsg, user, dispatch, navigate]);
 
     const handleLogin = (data) => {
-        console.log("dispatch")
         dispatch(loginUser(data));
     }
 
