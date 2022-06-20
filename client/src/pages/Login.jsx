@@ -8,6 +8,7 @@ import * as yup from "yup";
 import {resetUser, selectAuthUser} from "../redux/slices/authSlice/authSlice";
 import {useNavigate} from "react-router-dom";
 import {toast} from "react-toastify";
+import Spinner from "../components/Spinner";
 
 /** yup schema for validation-- */
 const schema = yup.object().shape({
@@ -16,7 +17,7 @@ const schema = yup.object().shape({
 });
 
 const Login = () => {
-    const {register, handleSubmit, reset, formState: {errors}} = useForm({resolver: yupResolver(schema)});
+    const {register, handleSubmit, formState: {errors}} = useForm({resolver: yupResolver(schema)});
     const {loading, user, errorMsg} = useSelector(selectAuthUser);
 
     const dispatch = useDispatch();
@@ -38,6 +39,9 @@ const Login = () => {
     const handleLogin = (data) => {
         dispatch(loginUser(data));
     }
+
+    if (loading === "loading") return <Spinner />
+
 
 
     return (

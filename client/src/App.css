@@ -1,0 +1,14 @@
+.status-new {
+    background: green;
+    filter: opacity(80%);
+}
+
+.status-open {
+    background-color: steelblue;
+    filter: opacity(80%);
+}
+
+.status-closed {
+    background-color: darkred;
+    filter: opacity(80%);
+}

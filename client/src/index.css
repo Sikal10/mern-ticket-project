@@ -12,6 +12,18 @@
     }
 
     .signup-input {
-        @apply w-full rounded-[12px] py-4 px-7 border-none outline-0
+        @apply w-full rounded-[12px] py-4 px-7 border border-gray-200 outline-0
+    }
+
+    .tickets-heading {
+        @apply rounded-md grid grid-cols-4 gap-5 text-center bg-gray-100 justify-between items-center px-[15px] py-[10px] font-semibold
+    }
+
+    .ticket {
+        @apply rounded-md grid grid-cols-4 gap-5 text-center mt-4 bg-gray-100 justify-between items-center px-[15px] py-[12px] font-semibold
+    }
+
+    .status {
+        @apply text-white w-[100px] py-1 px-[20px] justify-self-center rounded-[6px] text-[16px] text-center
     }
 }

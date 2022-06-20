@@ -9,6 +9,7 @@ import {ToastContainer} from "react-toastify";
 import UserProfile from "./pages/UserProfile";
 import ProtectedRoute from "./components/ProtectedRoute";
 import NewTicket from "./pages/NewTicket";
+import Tickets from "./pages/Tickets";
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
                     </Route>
                     <Route path={"/new-ticket"} element={<ProtectedRoute />}>
                         <Route path={"/new-ticket"} element={<NewTicket />} />
+                    </Route>
+                    <Route path={"/tickets"} element={<ProtectedRoute />}>
+                        <Route path={"/tickets"} element={<Tickets />} />
                     </Route>
                 </Routes>
             </div>
