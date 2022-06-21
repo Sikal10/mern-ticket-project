@@ -11,3 +11,15 @@ export const getCurrentUser = asyncHandler(async (req, res, next) => {
 
     return res.status(200).json({success: true, user});
 });
+
+/** @desc get all users
+ *  @route /api/users GET
+ *  @access private admin
+ * */
+
+export const getAllUsers = asyncHandler(async (req, res, next) => {
+    const users = await User.find();
+
+    return res.status(200).json({success: true, users});
+
+});

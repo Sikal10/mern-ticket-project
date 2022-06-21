@@ -26,3 +26,14 @@ export const protect = asyncHandler(async (req, res, next) => {
         return next(errorResponse(403, "Token is not valid!"))
     }
 });
+
+/** Authorization middleware to check if the admin is logged in. */
+export const authorize = asyncHandler(async (req, res, next) => {
+    const admin = req.user && req.user.isAdmin;
+
+    if (admin) {
+        next()
+    } else {
+        return next(errorResponse(401, `You are not authorized. ${req.user.name} is not an admin.`));
+    }
+});
