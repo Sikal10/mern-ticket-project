@@ -14,6 +14,10 @@ const Home = () => {
                 <Link className={"block"} to={"/tickets"}>
                     <button className="w-full py-2.5 text-center bg-black border text-white border-gray-500 rounded-md">View My Tickets</button>
                 </Link>
+
+                <Link className={"block"} to={"/tickets"}>
+                    <button className="w-full py-2.5 text-center bg-gray-500 text-white rounded-md">View My Profile</button>
+                </Link>
             </div>
 
         </div>
