@@ -18,6 +18,10 @@ const Home = () => {
                 <Link className={"block"} to={"/profile"}>
                     <button className="w-full py-2.5 text-center bg-gray-500 text-white rounded-md">View My Profile</button>
                 </Link>
+
+                <Link className={"block"} to={"/users"}>
+                    <button className="w-full py-2.5 text-center bg-gray-500 text-white rounded-md">All Users</button>
+                </Link>
             </div>
 
         </div>

@@ -1,11 +1,12 @@
 import {createSlice} from "@reduxjs/toolkit";
-import {getCurrentUser} from "./userAPI";
+import {getAllUsers, getCurrentUser} from "./userAPI";
 
 const initialState = {
     loading: "idle",
-    currentUser: JSON.parse(localStorage.getItem("currentUser")) || null,
+    currentUser: null,
     errorMsg: "",
     success: false,
+    users: null
 };
 
 export const userSlice = createSlice({
@@ -28,6 +29,18 @@ export const userSlice = createSlice({
             state.currentUser = action.payload.user
         },
         [getCurrentUser.rejected]: (state, action) => {
+            state.loading = "error"
+            state.errorMsg = action.payload.error.message
+        },
+        [getAllUsers.pending]: (state) => {
+            state.loading = "loading"
+        },
+        [getAllUsers.fulfilled]: (state, action) => {
+            state.loading = "loaded"
+            state.success = action.payload.success
+            state.users = action.payload.users
+        },
+        [getAllUsers.rejected]: (state, action) => {
             state.loading = "error"
             state.errorMsg = action.payload.error.message
         }

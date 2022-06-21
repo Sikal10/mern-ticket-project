@@ -17,3 +17,20 @@ export const getCurrentUser = createAsyncThunk("user/getCurrentUser", async (_, 
         return thunkAPI.rejectWithValue({error: err.response.data})
     }
 });
+
+export const getAllUsers = createAsyncThunk("user/getAllUsers", async (_, thunkAPI) => {
+    const token = thunkAPI.getState().auth.user.token;
+    const config = {
+        headers: {
+            Authorization: `Bearer ${token}`
+        }
+    }
+
+    try {
+        const {data} = await axios.get("/api/users", config);
+        return data;
+    } catch (err) {
+        return thunkAPI.rejectWithValue({error: err.response.data})
+    }
+
+});

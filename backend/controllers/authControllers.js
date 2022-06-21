@@ -46,7 +46,8 @@ export const loginUser = asyncHandler(async (req, res, next) => {
         name: existingUser.name,
         email,
         token,
-        id: existingUser._id
+        id: existingUser._id,
+        isAdmin: existingUser.isAdmin
     }
 
     res.status(200).json({success: true, user});
