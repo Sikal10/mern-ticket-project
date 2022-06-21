@@ -40,6 +40,18 @@ export const authSlice = createSlice({
             state.loading = "error"
             state.errorMsg = action.payload.error.message
         },
+        [getTicket.pending]: (state) => {
+            state.loading = "loading"
+        },
+        [getTicket.fulfilled]: (state, action) => {
+            state.loading = "loaded"
+            state.success = action.payload.success
+            state.ticket = action.payload.ticket
+        },
+        [getTicket.rejected]: (state, action) => {
+            state.loading = "error"
+            state.errorMsg = action.payload.error.message
+        },
     }
 });
 

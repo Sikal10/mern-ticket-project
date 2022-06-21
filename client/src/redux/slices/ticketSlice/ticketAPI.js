@@ -37,8 +37,15 @@ export const getTickets = createAsyncThunk("ticket/getTickets", async (_, thunkA
 });
 
 export const getTicket = createAsyncThunk("ticket/getTicket", async (id, thunkAPI) => {
+    const token = thunkAPI.getState().auth.user.token;
+    const config = {
+        headers: {
+            Authorization: `Bearer ${token}`
+        }
+    }
+
     try {
-        const {data} = await axios.get(`/api/ticket/${id}`);
+        const {data} = await axios.get(`/api/tickets/${id}`, config);
         return data;
     } catch (err) {
         return thunkAPI.rejectWithValue({error: err.response.data})
