@@ -1,5 +1,5 @@
 import {createSlice} from "@reduxjs/toolkit";
-import {createTicket, getTickets, getTicket, updateTicket, deleteTicket} from "./ticketAPI";
+import {createTicket, getTickets, getTicket, closeTicket, updateTicket, deleteTicket} from "./ticketAPI";
 
 const initialState = {
     loading: "idle",
@@ -51,6 +51,14 @@ export const authSlice = createSlice({
         [getTicket.rejected]: (state, action) => {
             state.loading = "error"
             state.errorMsg = action.payload.error.message
+        },
+        [closeTicket.fulfilled]: (state, action) => {
+            state.loading = "idle"
+            state.tickets.map((ticket) =>
+                ticket._id === action.payload._id
+                    ? ticket.status = "closed"
+                    : ticket
+            )
         },
     }
 });

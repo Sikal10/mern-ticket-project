@@ -52,6 +52,26 @@ export const getTicket = createAsyncThunk("ticket/getTicket", async (id, thunkAP
     }
 });
 
+export const closeTicket = createAsyncThunk("ticket/closeTicket", async (id, thunkAPI) => {
+    const token = thunkAPI.getState().auth.user.token;
+    const config = {
+        headers: {
+            Authorization: `Bearer ${token}`
+        }
+    }
+
+    const closeTicketData = {
+        status: "closed"
+    }
+
+    try {
+        const {data} = await axios.put(`/api/tickets/${id}`, closeTicketData, config);
+        return data;
+    } catch (err) {
+        return thunkAPI.rejectWithValue({error: err.response.data})
+    }
+});
+
 export const updateTicket = createAsyncThunk("ticket/updateTicket", async (ticketData, thunkAPI) => {
     try {
         const {data} = await axios.put("/api/auth/register", ticketData);
