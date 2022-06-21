@@ -6,7 +6,7 @@ const TicketItem = ({ticket}) => {
             <div>{new Date(ticket.createdAt).toLocaleString("en-US")}</div>
             <div>{ticket.product}</div>
             <div className={`status status-${ticket.status}`}>{ticket.status}</div>
-            <Link className={"border border-gray-300 rounded-md bg-white py-1 w-[100px] text-center mx-auto "} to={`/ticket/${ticket._id}`}>View</Link>
+            <Link className={"border border-gray-300 rounded-md bg-white py-1 w-[100px] text-center mx-auto "} to={`/tickets/${ticket._id}`}>View</Link>
         </div>
     );
 };

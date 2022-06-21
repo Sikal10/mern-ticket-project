@@ -1,13 +1,10 @@
 import {Link} from "react-router-dom";
-import BackButton from "../components/BackButton";
 
 const Home = () => {
     return (
         <div className={""}>
             <h2 className={"text-center font-semibold text-gray-600 text-[35px]"}>What do you need help with?</h2>
             <p className={"text-center text-[18px] text-gray-600"}>Please choose from an option below</p>
-
-            <BackButton url={"/"} />
 
             <div className={"max-w-5xl space-y-6 mt-[40px]"}>
                 <Link className={"block"} to={"/new-ticket"}>

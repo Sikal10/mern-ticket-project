@@ -18,7 +18,7 @@ const Header = () => {
     }
 
     return (
-        <header className={"py-4 pt-10 flex items-center justify-between px-[30px]"}>
+        <header className={"py-4 border-b border-gray-300 pt-10 flex items-center justify-between "}>
             <Link to={"/"}><p className={"font-semibold text-gray-500"}>Support Desk</p></Link>
 
             {user ?
