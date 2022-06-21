@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 
 function App() {
+
   return (
     <div className={"bg-[#F6F9FF] h-screen"}>
         <Router>
