@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e9dc304-b119-436e-ab8e-efd304d377de" name="Changes" comment="other files" />
+    <list default="true" id="3e9dc304-b119-436e-ab8e-efd304d377de" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fullstack.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +144,7 @@
       <workItem from="1655888394646" duration="4303000" />
       <workItem from="1655893004635" duration="539000" />
       <workItem from="1655893552512" duration="94000" />
-      <workItem from="1655893654109" duration="437000" />
+      <workItem from="1655893654109" duration="680000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1655648659170</created>
@@ -458,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655893071119</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="test">
+      <created>1655894230302</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1655894230302</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +493,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Login and Register page" />
     <MESSAGE value="login functionality updated, logout" />
     <MESSAGE value="Protected route and the user profile page" />
     <MESSAGE value="New ticket page" />
@@ -501,6 +517,7 @@
     <MESSAGE value="Add notes functionality" />
     <MESSAGE value="Modal and NoteItem components" />
     <MESSAGE value="other files" />
-    <option name="LAST_COMMIT_MESSAGE" value="other files" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
