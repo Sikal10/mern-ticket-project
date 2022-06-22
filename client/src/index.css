@@ -26,4 +26,12 @@
     .status {
         @apply text-white w-[100px] py-1 px-[20px] justify-self-center rounded-[6px] text-[16px] text-center
     }
+
+    .user-list-heading {
+        @apply rounded-md grid grid-cols-4 gap-5 text-center bg-gray-100 justify-between items-center px-[15px] py-[10px] font-semibold
+    }
+
+    .user-list {
+        @apply rounded-md grid grid-cols-4 gap-5 text-center mt-4 bg-gray-100 justify-between items-center px-[15px] py-[12px] font-semibold
+    }
 }
