@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e9dc304-b119-436e-ab8e-efd304d377de" name="Changes" comment="other files" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Anbo8Zan8yCQ56Xj9NlL3EAZcq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="client" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="client" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start (1)" />
+        <item itemvalue="npm.server" />
+        <item itemvalue="npm.client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e9dc304-b119-436e-ab8e-efd304d377de" name="Changes" comment="" />
+      <created>1655648468953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655648468953</updated>
+      <workItem from="1655648470054" duration="3278000" />
+      <workItem from="1655663783722" duration="18544000" />
+      <workItem from="1655702391472" duration="15632000" />
+      <workItem from="1655750822815" duration="11492000" />
+      <workItem from="1655795206129" duration="3310000" />
+      <workItem from="1655801762045" duration="613000" />
+      <workItem from="1655809713239" duration="24113000" />
+      <workItem from="1655862862476" duration="3131000" />
+      <workItem from="1655888394646" duration="4303000" />
+      <workItem from="1655893004635" duration="539000" />
+      <workItem from="1655893552512" duration="94000" />
+      <workItem from="1655893654109" duration="437000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1655648659170</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655648659170</updated>
+    </task>
+    <task id="LOCAL-00002" summary="user model and app setup">
+      <created>1655649798426</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655649798426</updated>
+    </task>
+    <task id="LOCAL-00003" summary="database connection">
+      <created>1655668621943</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655668621943</updated>
+    </task>
+    <task id="LOCAL-00004" summary="error middleware">
+      <created>1655668662127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655668662127</updated>
+    </task>
+    <task id="LOCAL-00005" summary="user signup and login controllers">
+      <created>1655668723060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655668723060</updated>
+    </task>
+    <task id="LOCAL-00006" summary="user model">
+      <created>1655668732990</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655668732990</updated>
+    </task>
+    <task id="LOCAL-00007" summary="jsonwebtoken added">
+      <created>1655668839727</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655668839727</updated>
+    </task>
+    <task id="LOCAL-00008" summary="authentication middleware">
+      <created>1655670917764</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655670917764</updated>
+    </task>
+    <task id="LOCAL-00009" summary="get current user, and users routes added">
+      <created>1655670959586</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655670959586</updated>
+    </task>
+    <task id="LOCAL-00010" summary="run servers concurrently">
+      <created>1655685574844</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655685574844</updated>
+    </task>
+    <task id="LOCAL-00011" summary="client app setup">
+      <created>1655685645073</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655685645073</updated>
+    </task>
+    <task id="LOCAL-00012" summary="tailwind configuration">
+      <created>1655685691567</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655685691567</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Home page">
+      <created>1655685729338</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1655685729338</updated>
+    </task>
+    <task id="LOCAL-00014" summary="redux setup">
+      <created>1655685777391</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1655685777391</updated>
+    </task>
+    <task id="LOCAL-00015" summary="signin and signup functionality using redux">
+      <created>1655685792108</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1655685792108</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Login and Register page">
+      <created>1655685812746</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1655685812746</updated>
+    </task>
+    <task id="LOCAL-00017" summary="login functionality updated, logout">
+      <created>1655708097132</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1655708097132</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Protected route and the user profile page">
+      <created>1655708136731</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1655708136731</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Protected route updated">
+      <created>1655724510999</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1655724510999</updated>
+    </task>
+    <task id="LOCAL-00020" summary="New ticket page">
+      <created>1655724533380</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1655724533380</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Ticket model, controller and route">
+      <created>1655731055920</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1655731055920</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Spinner and button component">
+      <created>1655766724593</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1655766724593</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Ticket api and ticket slice">
+      <created>1655766780918</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1655766780918</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Tickets page">
+      <created>1655766911238</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1655766911238</updated>
+    </task>
+    <task id="LOCAL-00025" summary="app updated">
+      <created>1655766980675</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1655766980675</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Ticket slice and reducer">
+      <created>1655810058008</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1655810058008</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Ticket Page">
+      <created>1655810105407</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1655810105407</updated>
+    </task>
+    <task id="LOCAL-00028" summary="User slice and reducer">
+      <created>1655812247832</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1655812247832</updated>
+    </task>
+    <task id="LOCAL-00029" summary="User slice and reducer">
+      <created>1655812321816</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1655812321816</updated>
+    </task>
+    <task id="LOCAL-00030" summary="User Profile Page">
+      <created>1655812340099</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1655812340099</updated>
+    </task>
+    <task id="LOCAL-00031" summary="User Profile Page">
+      <created>1655812383585</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1655812383585</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Close ticket slice, reducer and functionality.">
+      <created>1655814658591</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1655814658591</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Authorization middleware">
+      <created>1655818894186</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1655818894186</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Authorization in the Protected Route">
+      <created>1655843878449</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1655843878449</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Authorization in the Protected Route">
+      <created>1655843949127</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1655843949127</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Protected route updated">
+      <created>1655844016533</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1655844016533</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Get all users slice and reducers">
+      <created>1655844034285</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1655844034285</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Users page and Unauthorized component">
+      <created>1655844058656</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1655844058656</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Note model, routes and controllers">
+      <created>1655863025515</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1655863025515</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Note model, routes and controllers">
+      <created>1655863056606</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1655863056606</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Users page">
+      <created>1655863648772</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1655863648772</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Note slice and reducer">
+      <created>1655891774327</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1655891774327</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Add notes functionality">
+      <created>1655891894690</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1655891894690</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Modal and NoteItem components">
+      <created>1655891918816</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1655891918816</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Modal and NoteItem components">
+      <created>1655892881156</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1655892881156</updated>
+    </task>
+    <task id="LOCAL-00046" summary="other files">
+      <created>1655893071118</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1655893071119</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Login and Register page" />
+    <MESSAGE value="login functionality updated, logout" />
+    <MESSAGE value="Protected route and the user profile page" />
+    <MESSAGE value="New ticket page" />
+    <MESSAGE value="Ticket model, controller and route" />
+    <MESSAGE value="Spinner and button component" />
+    <MESSAGE value="Ticket api and ticket slice" />
+    <MESSAGE value="Tickets page" />
+    <MESSAGE value="app updated" />
+    <MESSAGE value="Ticket slice and reducer" />
+    <MESSAGE value="Ticket Page" />
+    <MESSAGE value="User slice and reducer" />
+    <MESSAGE value="User Profile Page" />
+    <MESSAGE value="Close ticket slice, reducer and functionality." />
+    <MESSAGE value="Authorization middleware" />
+    <MESSAGE value="Authorization in the Protected Route" />
+    <MESSAGE value="Protected route updated" />
+    <MESSAGE value="Get all users slice and reducers" />
+    <MESSAGE value="Users page and Unauthorized component" />
+    <MESSAGE value="Note model, routes and controllers" />
+    <MESSAGE value="Users page" />
+    <MESSAGE value="Note slice and reducer" />
+    <MESSAGE value="Add notes functionality" />
+    <MESSAGE value="Modal and NoteItem components" />
+    <MESSAGE value="other files" />
+    <option name="LAST_COMMIT_MESSAGE" value="other files" />
+  </component>
+</project>
