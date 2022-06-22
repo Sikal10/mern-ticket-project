@@ -12,7 +12,7 @@ export const createTicket = asyncHandler(async (req, res, next) => {
     if (!product || !description) return errorResponse(400, "Please add a product and description");
 
     const user = await User.findById(req.user);
-    if (!user) return errorResponse(401, "User not found");
+    if (!user) return errorResponse(404, "User not found");
 
     const ticket = await Ticket.create({product, description, user: req.user._id, status: "new"});
 
@@ -27,7 +27,7 @@ export const createTicket = asyncHandler(async (req, res, next) => {
 export const getTickets = asyncHandler(async (req, res, next) => {
     /** Get user using the ID in the JWT */
     const user = await User.findById(req.user);
-    if (!user) return errorResponse(401, "User not found");
+    if (!user) return errorResponse(404, "User not found");
 
     const tickets = await Ticket.find({user: req.user});
 
@@ -41,7 +41,7 @@ export const getTickets = asyncHandler(async (req, res, next) => {
 export const getTicket = asyncHandler(async (req, res, next) => {
     /** Get user using the ID in the JWT */
     const user = await User.findById(req.user);
-    if (!user) return errorResponse(401, "User not found");
+    if (!user) return errorResponse(404, "User not found");
 
     const ticket = await Ticket.findById(req.params.id);
 
@@ -53,7 +53,7 @@ export const getTicket = asyncHandler(async (req, res, next) => {
      * toString() converts it to a readable string instead of mongoose new ObjectId...
      * */
 
-    if (ticket.user.toString() !== req.user._id.toString()) return errorResponse(404, "Not authorized");
+    if (ticket.user.toString() !== req.user._id.toString()) return errorResponse(401, "Not authorized");
 
     res.status(201).json({success: true, ticket})
 });
@@ -71,7 +71,7 @@ export const updateTicket = asyncHandler(async (req, res, next) => {
     if (!ticket) return errorResponse(404, "Ticket not found");
 
     /** check if the logged-in user is trying to edit a ticket they created */
-    if (ticket.user.toString() !== req.user._id.toString()) return errorResponse(404, "Not authorized");
+    if (ticket.user.toString() !== req.user._id.toString()) return errorResponse(401, "Not authorized");
 
     const updatedTicket = await Ticket.findByIdAndUpdate(req.params.id, req.body, {
         new: true
@@ -87,13 +87,13 @@ export const updateTicket = asyncHandler(async (req, res, next) => {
 export const deleteTicket = asyncHandler(async (req, res, next) => {
     const user = await User.findById(req.user);
 
-    if (!user) return errorResponse(401, "User not found");
+    if (!user) return errorResponse(404, "User not found");
 
     const ticket = await Ticket.findById(req.params.id);
     if (!ticket) return errorResponse(404, "Ticket not found");
 
     /** check if the logged-in user is trying to delete a ticket they created */
-    if (ticket.user.toString() !== req.user._id.toString()) return errorResponse(404, "Not authorized");
+    if (ticket.user.toString() !== req.user._id.toString()) return errorResponse(401, "Not authorized");
 
     await ticket.remove();
 
