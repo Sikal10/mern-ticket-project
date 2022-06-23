@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e9dc304-b119-436e-ab8e-efd304d377de" name="Changes" comment="gitignore">
+    <list default="true" id="3e9dc304-b119-436e-ab8e-efd304d377de" name="Changes" comment="prepare for deploy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Ticket.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Ticket.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,14 +141,7 @@
       <workItem from="1655912967596" duration="170000" />
       <workItem from="1655930485611" duration="601000" />
       <workItem from="1655977403683" duration="668000" />
-      <workItem from="1655991626875" duration="2051000" />
-    </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <created>1655648659170</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1655648659170</updated>
+      <workItem from="1655991626875" duration="2689000" />
     </task>
     <task id="LOCAL-00002" summary="user model and app setup">
       <created>1655649798426</created>
@@ -489,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655894698327</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="prepare for deploy">
+      <created>1656010446738</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1656010446738</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="New ticket page" />
     <MESSAGE value="Ticket model, controller and route" />
     <MESSAGE value="Spinner and button component" />
     <MESSAGE value="Ticket api and ticket slice" />
@@ -532,6 +528,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="files" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="prepare for deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="prepare for deploy" />
   </component>
 </project>

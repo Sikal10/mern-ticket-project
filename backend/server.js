@@ -16,7 +16,7 @@ const app = express();
 
 app.get("/", (req, res) => {
     res.status(200).json({message: "Welcome to the Ticket Support API"})
-})
+});
 
 /** middlewares */
 app.use(express.json());
