@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e9dc304-b119-436e-ab8e-efd304d377de" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fullstack.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    <list default="true" id="3e9dc304-b119-436e-ab8e-efd304d377de" name="Changes" comment="gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Ticket.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Ticket.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +140,11 @@
       <workItem from="1655893004635" duration="539000" />
       <workItem from="1655893552512" duration="94000" />
       <workItem from="1655893654109" duration="680000" />
+      <workItem from="1655894344013" duration="943000" />
+      <workItem from="1655912967596" duration="170000" />
+      <workItem from="1655930485611" duration="601000" />
+      <workItem from="1655977403683" duration="668000" />
+      <workItem from="1655991626875" duration="2051000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1655648659170</created>
@@ -475,7 +475,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655894230302</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="files">
+      <created>1655894383967</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1655894383967</updated>
+    </task>
+    <task id="LOCAL-00049" summary="gitignore">
+      <created>1655894698327</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1655894698327</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,8 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="login functionality updated, logout" />
-    <MESSAGE value="Protected route and the user profile page" />
     <MESSAGE value="New ticket page" />
     <MESSAGE value="Ticket model, controller and route" />
     <MESSAGE value="Spinner and button component" />
@@ -518,6 +530,8 @@
     <MESSAGE value="Modal and NoteItem components" />
     <MESSAGE value="other files" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="files" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
 </project>

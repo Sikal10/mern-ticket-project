@@ -35,11 +35,9 @@ const Ticket = () => {
         dispatch(getTicket(ticketId));
         dispatch(getTicketNotes(ticketId));
 
-    }, [ticketId, dispatch, errorMsg])
+    }, [ticketId, dispatch, errorMsg]);
 
-    if (loading === "loading" || isNotesLoading === "loading") {
-        return <Spinner/>;
-    }
+    if (loading === "loading" || isNotesLoading === "loading") return <Spinner/>;
 
     const handleCloseTicket = () => {
         dispatch(closeTicket(ticketId));
